@@ -39,7 +39,6 @@ namespace CalcWPF
             // Пытаемся преобразовать его в число
             bool result = Int32.TryParse(s, out num);
             // Если текст - это число
-            // Еще один коммент
             if (result == true)
             {
                 // Если операция не задана
